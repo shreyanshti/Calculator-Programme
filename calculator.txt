@@ -1,0 +1,73 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+	float add,mult,div,sub,moud;
+	int x;
+ 
+  
+	cout<<"**************************************************************"<<endl;
+	cout<<"ENTER THE CHOICE :"<<endl;
+	cout<<"1-ADDITION"<<endl<<"2-MULTIPLICATION"<<endl<<"3-DIVISION"<<endl<<"4-SUBTRACTION"<<endl<<"5-MODULOUS"<<endl;
+	
+	cin>>x;
+
+	
+	switch(x)
+	{
+	
+		case 1:
+			{
+			
+			int a,b;
+				cout<<"ENTER THE TWO NUMBERS:";
+			cin>>a>>b;
+			add=a+b;
+				cout<<"THE ADDITION IS:"<<add<<endl;
+			}
+		break;
+		case 2:
+		{
+			
+			int e,f;
+			cout<<"ENTER THE TWO NUMBERS:"<<endl;
+			cin>>e>>f;
+			mult=e*f;
+			cout<<"THE MULTIPLICATION IS:"<<mult<<endl;
+		}	
+		break;
+		case 3:
+			{
+				
+				int g,h;
+				cout<<"ENTER THE NUMBERS:";
+				cin>>g>>h;
+				div=g/h;
+				cout<<"THE DIVISION IS :"<<div<<endl;
+			}
+		case 4:
+		{
+		
+			int a,b;
+			cout<<"ENTER THE NUMBERS:";
+			cin>>a>>b;
+			sub=a-b;
+			cout<<"THE SUBTRACTION IS:"<<sub<<endl;
+			
+		}
+		break;
+		case 5:
+		{
+			
+			int d,e;
+			cout<<"ENTER THE NUMBERS:";
+			cin>>d>>e;
+			moud=d%e;
+			cout<<"THE MODULOUS IS :"<<moud<<endl;
+			}break;	
+			
+	}
+
+		return 0;	
+}
